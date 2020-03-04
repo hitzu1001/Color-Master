@@ -7,9 +7,9 @@ class Palette extends Component {
       <ColorBox background={color.color} name={color.name}/>
     ));
     return (
-      <div className="Palette">
+      <div className='Palette'>
         {/* Navbar goes here */}
-        <div className="Palette-colors">
+        <div className='Palette-colors'>
           {colorBox}
         </div>
         {/* footer */}
